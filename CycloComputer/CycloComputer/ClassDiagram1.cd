@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CycloComputer.Tachometr">
+    <Position X="0.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAEAAAAABAQAAAASAAAACAAgIAAAABAACAAAA=</HashCode>
+      <FileName>Tachometr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CycloComputer.Data">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CycloComputer.NastaveniData">
+    <Position X="2.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>NastaveniData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CycloComputer.TrvalaData">
+    <Position X="5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACAAAAAAAAAAAAAAAAACAAAAAEAAAAAAABAAA=</HashCode>
+      <FileName>TrvalaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CycloComputer.AktualniData">
+    <Position X="7.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAACACAAAAAICAAQAAAAQAAAAAAAAIAAA=</HashCode>
+      <FileName>AktualniData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CycloComputer.ICidloData">
+    <Position X="3" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ICidloData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
