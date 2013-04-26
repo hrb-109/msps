@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using CycloComputer;
 
 namespace CycloComputer_GUI
 {
-    static class Program
+    class Program
     {
+        private static int iclick=0;
+
         public static Tachometr Tachometr
         {
             get
@@ -38,9 +41,17 @@ namespace CycloComputer_GUI
             throw new System.NotImplementedException();
         }
 
-        public static void ZobrazeniDat()
+        public static int ZobrazeniDat()
         {
-            throw new System.NotImplementedException();
+            click++;
+
+            if (click > 5)
+            {
+                click = 0;
+            }
+            return click;
         }
+
+        public static int click { get { return iclick; } set { iclick = value; } }
     }
 }

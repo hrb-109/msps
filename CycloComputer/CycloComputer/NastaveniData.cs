@@ -7,14 +7,18 @@ namespace CycloComputer
 {
     public class NastaveniData
     {
+        public bool casovyRezim;
+        public float obvod;
+
         public bool IsNepretrzityCasovyRezim
         {
             get
             {
-                throw new System.NotImplementedException();
+                return casovyRezim;
             }
             set
             {
+                casovyRezim = value;
             }
         }
 
@@ -22,10 +26,11 @@ namespace CycloComputer
         {
             get
             {
-                throw new System.NotImplementedException();
+                return obvod;
             }
             set
             {
+                obvod = value;
             }
         }
 

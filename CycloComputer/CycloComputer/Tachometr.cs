@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace CycloComputer
 {
-    public class Tachometr
+    public class Tachometr: ICidloData
     {
-        private int intervalZiskavaniDat;
+        public int intervalZiskavaniDat = 2000;
 
         public AktualniData AktualniData
         {
@@ -17,6 +18,7 @@ namespace CycloComputer
             }
             set
             {
+
             }
         }
 
@@ -28,6 +30,7 @@ namespace CycloComputer
             }
             set
             {
+                
             }
         }
 
@@ -39,6 +42,7 @@ namespace CycloComputer
             }
             set
             {
+
             }
         }
 
@@ -86,6 +90,27 @@ namespace CycloComputer
         public void ZiskejDataZCidla()
         {
             throw new System.NotImplementedException();
+        }
+
+        public float GetKadence()
+        {
+            System.Random ran = new System.Random();
+            float kadence = ran.Next(20, 70);
+
+            return kadence;
+        }
+
+        public float GetTeplota()
+        {
+            System.Random ran = new System.Random();
+            float teplota = ran.Next(10, 30);
+
+            return teplota;
+        }
+
+        public float GetVzdalenostOdPoslednihoMereni()
+        {
+            throw new NotImplementedException();
         }
     }
 }
